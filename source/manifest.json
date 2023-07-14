@@ -1,5 +1,5 @@
 {
-	"name": "Awesome Extension",
+	"name": "Github Show Hidden Items",
 	"version": "0.0.0",
 	"description": "An awesome new browser extension",
 	"homepage_url": "https://github.com/fregante/browser-extension-template",
@@ -22,7 +22,7 @@
 	],
 	"content_scripts": [
 		{
-			"matches": [ "https://github.com/fregante/browser-extension-template/*" ],
+			"matches": [ "https://github.com/*" ],
 			"js": [ "content.js" ],
 			"css": [ "content.css" ],
 			"run_at": "document_end"
